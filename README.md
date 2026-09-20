@@ -79,4 +79,4 @@ to `data/raw/` so repeated analysis doesn't re-hit the API.
 |---|---|---|
 | 09/20/2026 | Richard | Repo setup, README creation |
 | 09/20/2026 | Richard | Mentors added as collaborators |
-| 09/20/2026 | Name | Placeholder |
+| 09/20/2026 | Josie | F1/Weather APIs dataset descriptions, questions, info summary |
