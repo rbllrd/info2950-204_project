@@ -81,4 +81,4 @@ to `data/raw/` so repeated analysis doesn't re-hit the API.
 | 09/20/2026 | Richard | Mentors added as collaborators |
 | 09/20/2026 | Josie | F1/Weather APIs dataset descriptions, questions, info summary |
 | 09/20/2026 | Jason | Congressional Data(Cosponsorship, Fundraising) APIs dataset descriptions, questions, info summary |
-
+| 09/20/2026 | Orazio | Covid College Admissions dataset descriptions, questions, info summary |
