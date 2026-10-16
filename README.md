@@ -82,4 +82,7 @@ to `data/raw/` so repeated analysis doesn't re-hit the API.
 | 09/20/2026 | Josie | F1/Weather APIs dataset descriptions, questions, info summary |
 | 09/20/2026 | Jason | Congressional Data(Cosponsorship, Fundraising) APIs dataset descriptions, questions, info summary |
 | 09/20/2026 | Orazio | Covid College Admissions dataset descriptions, questions, info summary |
-| 10/15/2026 | Josie | Jupyter notebook setup, Phase2Peer.ipynb creation |
+| 10/15/2026 | Josie | Jupyter notebook setup, Phase2Peer.ipynb creation, data cleaning |
+| 10/15/2026 | Orazio | Preregistering analyses and forming hypothesis, higher level logic |
+| 10/15/2026 | Jason | Data cleaning, notes for code to ensure comprehension |
+| 10/15/2026 | Richard | Data descriptions, limitations, research questions |
