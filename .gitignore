@@ -1,0 +1,16 @@
+# Local Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# API / notebook caches
+.cache.sqlite
+.cache/
+
+# Export artifacts (submit PDF on Gradescope; keep locally if you want)
+Phase2Peer.html
+Phase2Peer.pdf
+
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/

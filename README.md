@@ -17,18 +17,21 @@ Shared workspace for our INFO 2950 final project, Section 204.
 
 ## Layout
 
-```
-data/raw/          As downloaded or pulled. Never edited by hand.
-data/interim/      Intermediate merges and partial cleaning
-data/processed/    Analysis-ready tables
-notebooks/         Exploration, one notebook per question
-src/               Reusable code: API collectors, cleaners, join logic
-docs/              Write-ups and meeting notes
-reports/figures/   Exported plots
-```
+- `Phase2Peer.ipynb` — Phase 2 notebook
+- `analysis_ready.csv` — team-session table used for EDA / planned analyses
+- `openmeteo_input.csv` — circuit/date inputs used for weather pulls
+- `.gitignore` — ignores `.venv/`, cache, and PDF/HTML exports
 
-Nothing in `data/raw/` gets modified. All transformations happen in code, so any
-result can be regenerated from the original pull.
+## Phase 2 edits summary (10/15/2026)
+
+What we added beyond the initial cleaning notebook:
+
+- **Analysis-ready table** (`analysis_ready.csv`): team qualifying pace vs session best, season-relative pace, weather (temp, cloud cover), elevation, Mercedes/Mexico flags
+- **Data description** rewritten for that table (Gebru-style rows/columns, sources, preprocessing)
+- **Data limitations** expanded (hourly weather, Mexico elevation outlier, within-season car changes, night races)
+- **EDA**: summary stats + plots (relative pace, elevation, Mercedes × temperature, daytime cloud cover) and short takeaways
+- **Part 2 preregistration**: Q1-based relative pace definition; elevation × team regression; Mercedes × track temperature (cloud-cover daytime follow-up); reviewer questions including Q1 vs pole tradeoff
+- **Repo hygiene**: `.gitignore` for `.venv`, Open-Meteo cache, and export artifacts
 
 ## Dataset ideas (Phase I)
 
@@ -86,3 +89,4 @@ to `data/raw/` so repeated analysis doesn't re-hit the API.
 | 10/15/2026 | Orazio | Preregistering analyses and forming hypothesis, higher level logic |
 | 10/15/2026 | Jason | Data cleaning, notes for code to ensure comprehension |
 | 10/15/2026 | Richard | Data descriptions, limitations, research questions |
+| 10/15/2026 | Orazio | Q1 relative-pace prereg rewrite; EDA + analysis_ready.csv; Gebru description / stronger limitations; `.gitignore` |
