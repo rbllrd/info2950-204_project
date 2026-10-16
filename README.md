@@ -2,7 +2,7 @@
 
 Shared workspace for our INFO 2950 final project, Section 204.
 
-**Current phase:** Phase I — Project Brainstorming (due Sep 22, 2026)
+**Current phase:** Phase II — Peer Review (due Oct 15, 2026)
 
 ## Team
 
