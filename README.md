@@ -2,7 +2,7 @@
 
 Shared workspace for our INFO 2950 final project, Section 204.
 
-**Current phase:** Phase II — Peer Review (due Oct 15, 2026)
+**Current phase:** Phase II (due Oct 20, 2026)
 
 ## Team
 
@@ -69,13 +69,17 @@ to `data/raw/` so repeated analysis doesn't re-hit the API.
 
 | Date | Who | What |
 |---|---|---|
-| 09/20/2026 | Richard | Repo setup, README creation |
-| 09/20/2026 | Richard | Mentors added as collaborators |
-| 09/20/2026 | Josie | F1/Weather APIs dataset descriptions, questions, info summary |
-| 09/20/2026 | Jason | Congressional Data(Cosponsorship, Fundraising) APIs dataset descriptions, questions, info summary |
-| 09/20/2026 | Orazio | Covid College Admissions dataset descriptions, questions, info summary |
+| 10/20/2026 | Josie | Making peer edits on part 1 and 2 questions, formalizing questions for reviewers |
+| 10/20/2026 | Orazio | Preregistering analyses and forming hypothesis, higher level logic |
+| 10/20/2026 | Jason | Data cleaning, notes for code to ensure comprehension |
+| 10/20/2026 | Richard | Exploratory data analysis  |
 | 10/15/2026 | Josie | Jupyter notebook setup, Phase2Peer.ipynb creation, data cleaning |
 | 10/15/2026 | Orazio | Preregistering analyses and forming hypothesis, higher level logic |
 | 10/15/2026 | Jason | Data cleaning, notes for code to ensure comprehension |
 | 10/15/2026 | Richard | Data descriptions, limitations, research questions |
 | 10/15/2026 | Orazio | EDA + analysis_ready.csv, Gebru description / stronger limitations, `.gitignore` |
+| 09/20/2026 | Richard | Repo setup, README creation |
+| 09/20/2026 | Richard | Mentors added as collaborators |
+| 09/20/2026 | Josie | F1/Weather APIs dataset descriptions, questions, info summary |
+| 09/20/2026 | Jason | Congressional Data(Cosponsorship, Fundraising) APIs dataset descriptions, questions, info summary |
+| 09/20/2026 | Orazio | Covid College Admissions dataset descriptions, questions, info summary |
