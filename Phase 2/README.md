@@ -13,7 +13,11 @@ The data the notebook produces is at the top level of the repo:
 To reproduce, open the notebook and Run All (about 8 minutes; needs internet, no API keys).
 
 Member contributions:
+
 Josie - Notebook setup; session, driver, and Open-Meteo weather import and cleaning; initial questions and limitations.
+
 Jason - OpenF1 trackside weather pull (track temperature, rain); code comments and edits; typo fixes.
+
 Richard - Research questions, data description, and limitations; final data cleaning fixes and revisions; repo organization.
+
 Orazio - Preregistration statements and hypotheses; research question reframing; EDA and analysis-ready dataset; repo cleanup.
