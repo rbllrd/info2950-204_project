@@ -67,12 +67,20 @@ to `data/raw/` so repeated analysis doesn't re-hit the API.
 
 ## Log
 
+Josie - Notebook setup; session, driver, and Open-Meteo weather import and cleaning; initial questions and limitations.
+
+Jason - OpenF1 trackside weather pull (track temperature, rain); code comments and edits; typo fixes.
+
+Richard - Research questions, data description, and limitations; final data cleaning fixes and revisions; repo organization.
+
+Orazio - Preregistration statements and hypotheses; research question reframing; EDA and analysis-ready dataset; repo cleanup.
+
 | Date | Who | What |
 |---|---|---|
 | 10/20/2026 | Josie | Making peer edits on part 1 and 2 questions, formalizing questions for reviewers |
-| 10/20/2026 | Orazio | Preregistering analyses and forming hypothesis, higher level logic |
-| 10/20/2026 | Jason | Data cleaning, notes for code to ensure comprehension |
-| 10/20/2026 | Richard | Exploratory data analysis  |
+| 10/20/2026 | Orazio | Reframing research question and hypotheses based on peer review, EDA and analysis-ready dataset, repo cleanup |
+| 10/20/2026 | Jason | Open F1 weather data pull, annotated comments and edits, typo fixes |
+| 10/20/2026 | Richard | Exploratory data analysis, data description and limitations, final data cleaning/revisions, repo organization |
 | 10/15/2026 | Josie | Jupyter notebook setup, Phase2Peer.ipynb creation, data cleaning |
 | 10/15/2026 | Orazio | Preregistering analyses and forming hypothesis, higher level logic |
 | 10/15/2026 | Jason | Data cleaning, notes for code to ensure comprehension |
