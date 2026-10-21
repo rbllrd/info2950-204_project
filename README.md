@@ -2,7 +2,7 @@
 
 Shared workspace for our INFO 2950 final project, Section 204.
 
-**Current phase:** Phase II (due Oct 20, 2026)
+**Current phase:** Phase III (due Nov 10, 2026)
 
 ## Team
 
