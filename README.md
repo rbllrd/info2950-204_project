@@ -90,3 +90,4 @@ Orazio - Preregistration statements and hypotheses; research question reframing;
 | 09/20/2026 | Josie | F1/Weather APIs dataset descriptions, questions, info summary |
 | 09/20/2026 | Jason | Congressional Data(Cosponsorship, Fundraising) APIs dataset descriptions, questions, info summary |
 | 09/20/2026 | Orazio | Covid College Admissions dataset descriptions, questions, info summary |
+| 11/09/2026 | Orazio | Ran the elevation × team regression (plus Mexico check) and wrote up that H1 isn’t significant. |
