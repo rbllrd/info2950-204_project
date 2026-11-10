@@ -2,7 +2,7 @@
 
 Shared workspace for our INFO 2950 final project, Section 204.
 
-**Current phase:** Phase III (due Nov 10, 2026)
+**Current phase:** Phase IV (due Nov 19, 2026)
 
 ## Team
 
@@ -18,7 +18,7 @@ Shared workspace for our INFO 2950 final project, Section 204.
 ## Repo Layout
 
 - `Phase 1/`, `Phase 2/`: notebooks and PDFs as submitted for each phase
-- `Phase 3/`: analysis notebooks for each preregistered hypothesis (`hypothesis1_elevation.ipynb`, `hypothesis2_mercedes.ipynb`)
+- `Phase 3/`: final submitted notebook and PDF (`info2950_204_project_phase3.ipynb`, `info2950-204_project_phase3.pdf`), plus each hypothesis's working notebook (`hypothesis1_elevation.ipynb`, `hypothesis2_mercedes.ipynb`)
 - `data/raw/`: raw API pulls (OpenF1, Open-Meteo)
 - `data_cleaning.ipynb`: turns `data/raw/` into `analysis_ready.csv`
 - `analysis_ready.csv`: analysis-ready table used by all analyses, the team-session table
@@ -61,22 +61,24 @@ to `data/raw/` so repeated analysis doesn't re-hit the API.
 
 ## Log
 
-**Phase II contributions summary:**
+**Phase III contributions summary:**
 
-Josie - Notebook setup; session, driver, and Open-Meteo weather import and cleaning; initial questions and limitations.
+Jason - Data cleaning notebook (Q1-based relative pace, stable team IDs, wet-Q1 flag, Q1 track temperature); regenerated raw data and analysis-ready dataset.
 
-Jason - OpenF1 trackside weather pull (track temperature, rain); code comments and edits; typo fixes.
+Orazio - Hypothesis 1 analysis (elevation × team regression, F-test, Mexico City robustness check).
 
-Richard - Research questions, data description, and limitations; final data cleaning fixes and revisions; repo organization.
+Josie - Hypothesis 2 analysis (temperature × Mercedes regression, permutation test, cloud-cover model); wet-vs-dry Mercedes analysis.
 
-Orazio - Preregistration statements and hypotheses; research question reframing; EDA and analysis-ready dataset; repo cleanup.
+Richard - Final notebook assembly; introduction, data description, preregistration, conclusions, limitations, and bibliography; analysis revisions.
 
 | Date | Who | What |
 |---|---|---|
+| 11/10/2026 | Richard | Submitted Phase III notebook; revised H1/H2 analyses (Q1 measure, dry sessions, clustered SEs, permutation tests)
+| 11/10/2026 | Josie | Added wet-vs-dry Mercedes analysis and revisions to H1/H2 interpretation |
 | 11/10/2026 | Richard | Prepared milestone 3 for submission; wrote data description, limitations, preregistration, and bibliography |
 | 11/09/2026 | Josie | Ran the temperature × Mercedes regression and recorded significance for H2 |
 | 11/09/2026 | Orazio | Ran the elevation × team regression (plus Mexico check) and wrote up that H1 isn’t significant |
-| 11/08/2026 | Jason | Built data_cleaning.ipynb (Q1-based relative pace from OpenF1 session results, stable team IDs across rebrands and seasons, wet-Q1 flag and Q1 track temperature, half-season check); regenerated and pushed data/raw/, fixing the issue of absent raw-data; rebuilt analysis_ready.csv (all 87 sessions); added repo layout to README |
+| 11/08/2026 | Jason | Built data_cleaning.ipynb (Q1-based relative pace from OpenF1 session results, stable team IDs across rebrands and seasons, wet-Q1 flag and Q1 track temperature, half-season check); regenerated and pushed data/raw/, fixing the issue of absent raw-data; rebuilt analysis_ready.csv (all 88 sessions); added repo layout to README |
 | 10/20/2026 | Josie | Making peer edits on part 1 and 2 questions, formalizing questions for reviewers |
 | 10/20/2026 | Orazio | Reframing research question and hypotheses based on peer review, EDA and analysis-ready dataset, repo cleanup |
 | 10/20/2026 | Jason | Open F1 weather data pull, annotated comments and edits, typo fixes |
