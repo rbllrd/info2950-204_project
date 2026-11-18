@@ -11,7 +11,7 @@ Shared workspace for our INFO 2950 final project, Section 204.
 | Richard Ballard | rpb233 | [@rbllrd](https://github.com/rbllrd) |
 | Josephine Kelly | jnk56 | [@jx-56](https://github.com/jx-56) |
 | Jason Choi | jc3697 | [@jc3697-creator](https://github.com/jc3697-creator) |
-| Orazio Petito | opp2 | [@OrazioP26](https://github.com/OrazioP26) |
+| Orazio Petito | opp4 | [@OrazioP26](https://github.com/OrazioP26) |
 
 **Section mentor:** Jingruo Chen (jc3564) — added as a collaborator on 09/20/2026.
 
@@ -19,6 +19,7 @@ Shared workspace for our INFO 2950 final project, Section 204.
 
 - `Phase 1/`, `Phase 2/`: notebooks and PDFs as submitted for each phase
 - `Phase 3/`: final submitted notebook and PDF (`info2950_204_project_phase3.ipynb`, `info2950-204_project_phase3.pdf`), plus each hypothesis's working notebook (`hypothesis1_elevation.ipynb`, `hypothesis2_mercedes.ipynb`)
+- `Phase 4/`: Phase IV notebook (`info2950_204_project_phase4.ipynb`), starting from the Phase 3 draft with conclusion wording fixes from TA feedback
 - `data/raw/`: raw API pulls (OpenF1, Open-Meteo)
 - `data_cleaning.ipynb`: turns `data/raw/` into `analysis_ready.csv`
 - `analysis_ready.csv`: analysis-ready table used by all analyses, the team-session table
@@ -73,6 +74,7 @@ Richard - Final notebook assembly; introduction, data description, preregistrati
 
 | Date | Who | What |
 |---|---|---|
+| 11/17/2026 | RicOraziohard | Conclusions fixes from phase 3 submission comments 
 | 11/10/2026 | Richard | Submitted Phase III notebook; revised H1/H2 analyses (Q1 measure, dry sessions, clustered SEs, permutation tests)
 | 11/10/2026 | Josie | Added wet-vs-dry Mercedes analysis and revisions to H1/H2 interpretation |
 | 11/10/2026 | Richard | Prepared milestone 3 for submission; wrote data description, limitations, preregistration, and bibliography |
